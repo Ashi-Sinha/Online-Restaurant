@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("/Project/restaurant.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+        color: #fff;
+      }
+
+      section {
+        margin: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      .menu-item {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+      }
+
+      .reservation-form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .reservation-form input[type="text"],
+      .reservation-form input[type="email"],
+      .reservation-form input[type="date"],
+      .reservation-form input[type="time"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .reservation-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .reservation-form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .reservation-form input[type="submit"]:hover {
+        background-color: #555;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Restaurant</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Menu</a></li>
+          <li><a href="booking.html">Online Booking</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="booking">
+      <h2><u>Online Booking</u></h2>
+
+      <div class="reservation-form">
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="date" placeholder="Date" required />
+          <input type="time" placeholder="Time" required />
+        </form>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <footer>
+      <p>&copy; 2023 Online Restaurant. All Rights Reserved</p>
+      <a href="#top" class="top">Go Back to Top</a>
+    </footer>
+  </body>
+</html>
